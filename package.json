@@ -13,6 +13,7 @@
   "author": "Brandon M",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "pm2": "^3.5.1"
   }
 }
