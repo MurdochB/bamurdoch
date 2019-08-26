@@ -1,0 +1,18 @@
+{
+  "name": "bamurdoch",
+  "version": "1.0.0",
+  "description": "Just getting me online again",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Brandon", "Murdoch", "Online"
+  ],
+  "author": "Brandon M",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
