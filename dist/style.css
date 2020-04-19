@@ -3,8 +3,7 @@
 }
 .hero { 
   width: 500px;
-  margin: 0 auto;
 }
 .hero h1 {
-  text-align: center;
+  color: mediumseagreen;
 }
