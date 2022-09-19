@@ -1,35 +1,17 @@
 {
   "name": "bamurdoch",
-  "version": "1.0.0",
-  "description": "react site",
-  "main": "index.js",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-bundle": "webpack -wd",
-    "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/"
+    "start": "node ./bin/www"
   },
-  "keywords": [
-    "bamurdoch"
-  ],
-  "author": "b.a.murdoch",
-  "license": "ISC",
   "dependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/node": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.6",
-    "express": "^4.17.1",
-    "nodemon": "^1.19.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7"
-  },
-  "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.3.0",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^2.0.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "morgan": "~1.9.1",
+    "serve-favicon": "^2.5.0"
   }
 }
